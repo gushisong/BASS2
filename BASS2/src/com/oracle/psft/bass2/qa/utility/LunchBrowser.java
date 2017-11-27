@@ -9,7 +9,7 @@ public class LunchBrowser {
 	
 	public static WebDriver LunchChrome()
 	{
-		String exePath=Constants.BrowserPath;
+		String exePath=Constants.ChromeBrowserPath;
 		System.setProperty("webdriver.chrome.driver",exePath);
 		WebDriver driver=new ChromeDriver();
 		
