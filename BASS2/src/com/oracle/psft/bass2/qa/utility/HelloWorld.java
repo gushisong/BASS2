@@ -7,7 +7,9 @@ public class HelloWorld {
 		System.out.println("Hello World");
 		System.out.println("Test");
 		
-		WebDriver driver=LunchBrowser.LunchChrome();
+		String userName=null;
+		ValidationHelper.checkNull("username is numm", userName);
+		
 	}
 
 }
